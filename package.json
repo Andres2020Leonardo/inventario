@@ -1,0 +1,30 @@
+{
+  "name": "inventario",
+  "version": "1.0.0",
+  "description": "backend proyecto formativo Sena",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app/api/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andres2020Leonardo/inventario.git"
+  },
+  "author": "Andres Leonardo Muñeton Escobar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andres2020Leonardo/inventario/issues"
+  },
+  "homepage": "https://github.com/Andres2020Leonardo/inventario#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "mysql-model": "^0.0.3",
+    "mysql2": "^2.3.3-rc.0",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.9.0"
+  }
+}
