@@ -4,7 +4,7 @@
   "description": "backend proyecto formativo Sena",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app/api/app.js"
+    "start": "nodemon app/api/app.js"
   },
   "repository": {
     "type": "git",
